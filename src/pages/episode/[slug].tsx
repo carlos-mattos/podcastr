@@ -1,11 +1,11 @@
-import { GetStaticPaths, GetStaticProps } from "next";
-import Link from "next/link";
-import { api } from "../../services/api";
-import { convertDurationToTimeString } from "../../utils/convertDurationToTimeString";
-import { format, parseISO } from "date-fns";
-import ptBR from "date-fns/locale/pt-BR";
-import styles from "./episode.module.scss";
-import Image from "next/image";
+import { GetStaticPaths, GetStaticProps } from 'next';
+import Link from 'next/link';
+import { api } from '../../services/api';
+import { convertDurationToTimeString } from '../../utils/convertDurationToTimeString';
+import { format, parseISO } from 'date-fns';
+import ptBR from 'date-fns/locale/pt-BR';
+import styles from './episode.module.scss';
+import Image from 'next/image';
 
 type Episode = {
   id: string;
@@ -27,9 +27,9 @@ export default function Episode({ episode }: EpisodeProps) {
   return (
     <div className={styles.episode}>
       <div className={styles.thumbnailContainer}>
-        <Link href="/">
-          <button type="button">
-            <img src="/arrow-left.svg" alt="Voltar" />
+        <Link href='/'>
+          <button type='button'>
+            <img src='/arrow-left.svg' alt='Voltar' />
           </button>
         </Link>
 
@@ -37,11 +37,11 @@ export default function Episode({ episode }: EpisodeProps) {
           width={700}
           height={160}
           src={episode.thumbnail}
-          objectFit="cover"
+          objectFit='cover'
         />
 
-        <button type="button">
-          <img src="/play.svg" alt="Tocar" />
+        <button type='button'>
+          <img src='/play.svg' alt='Tocar' />
         </button>
       </div>
 
@@ -63,7 +63,7 @@ export default function Episode({ episode }: EpisodeProps) {
 export const getStaticPaths: GetStaticPaths = async () => {
   return {
     paths: [],
-    fallback: "blocking",
+    fallback: 'blocking',
   };
 };
 
@@ -77,7 +77,7 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
     title: data.title,
     thumbnail: data.thumbnail,
     members: data.members,
-    publishedAt: format(parseISO(data.published_at), "d MMM yy", {
+    publishedAt: format(parseISO(data.published_at), 'd MMM yy', {
       locale: ptBR,
     }),
     duration: Number(data.file.duration),
@@ -85,8 +85,6 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
     description: data.description,
     url: data.file.url,
   };
-
-  console.log(episode);
 
   return {
     props: { episode },
