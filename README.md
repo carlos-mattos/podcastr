@@ -5,7 +5,7 @@
 </br>
 
 ## 🔖 Sobre
-<b>Podcastr</b> é uma plataforma de podcasts! O projeto frontend foi desenvolvido durante a NLW#5 [RocketSeat](https://rocketseat.com.br/), na trilha ReactJS. Nessa versão, já é possível ouvir alguns episódios e obter as respectivas informações.
+<b>Podcastr</b> é uma plataforma de podcasts! O projeto frontend foi desenvolvido durante a NLW#05 [RocketSeat](https://rocketseat.com.br/), na trilha ReactJS. Nessa versão, já é possível ouvir alguns episódios e obter as respectivas informações.
 
 </br>
 
