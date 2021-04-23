@@ -4,19 +4,21 @@
 
 </br>
 
-## 🔖 Sobre
-<b>Github-Explorer</b> é uma aplicação desenvolvida, a fim de, extrair informações primárias de qualquer repositório. As buscas ficam salvas no localStorage do seu navegador, assim, você poderá revisitá-las rapidamente sempre que desejar!
+## 📷 Preview
+<img src="./github-image/home.png" alt="home"/>
 
-## 👀 Demo
-<h4>Deploy on Heroku: <a href="https://github-explorer-ceam.herokuapp.com" target="_blank">https://github-explorer-ceam.herokuapp.com<a/></h4>
+## 🔖 Sobre
+<b>Podcastr</b> é uma plataforma para ouvir podcast! O frontend foi desenvolvido durante a NLW#5 [RocketSeat](https://rocketseat.com.br/), na trilha ReactJS.
 
 ## 🚀 Tecnologias utilizadas
 
 -  [ReactJS](https://reactjs.org/)
 -  [Typescript](https://www.npmjs.com/package/@types/react)
 -  [Axios](https://github.com/axios/axios)
--  [Polished](https://polished.js.org/)
--  [styled-components](https://www.styled-components.com/)
+-  [Next.js](https://nextjs.org/)
+-  [Sass](https://sass-lang.com/documentation)
+-  [json-server](https://github.com/typicode/json-server)
+
 
 </br>
 
@@ -24,10 +26,10 @@
 
 ```bash
 # Abra um terminal e copie este repositório com o comando
-$ git clone https://github.com/carlos-mattos/github-explorer.git
+$ git clone https://github.com/carlos-mattos/podcastr.git
 # ou use a opção de download.
 
-# Entre na pasta github-explorer
+# Entre na pasta podcastr
 $ cd github-explorer
 
 # Instale as dependências
