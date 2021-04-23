@@ -5,10 +5,10 @@
 </br>
 
 ## 📷 Preview
-<img src="./github-image/home.png" alt="home"/>
+<img src="./github-image/home.png" width="90%" alt="home"/>
 
 ## 🔖 Sobre
-<b>Podcastr</b> é uma plataforma para ouvir podcast! O frontend foi desenvolvido durante a NLW#5 [RocketSeat](https://rocketseat.com.br/), na trilha ReactJS.
+<b>Podcastr</b> é uma plataforma para ouvir podcast! O projeto frontend foi desenvolvido durante a NLW#5 [RocketSeat](https://rocketseat.com.br/), na trilha ReactJS. Nessa versão, já é possível ouvir alguns episódios e obter as respectivas informações.
 
 ## 🚀 Tecnologias utilizadas
 
@@ -30,7 +30,7 @@ $ git clone https://github.com/carlos-mattos/podcastr.git
 # ou use a opção de download.
 
 # Entre na pasta podcastr
-$ cd github-explorer
+$ cd podcastr
 
 # Instale as dependências
 $ npm install
