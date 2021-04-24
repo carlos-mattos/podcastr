@@ -45,8 +45,11 @@ $ cd podcastr
 # Instale as dependências
 $ npm install
 
-# Inicie o React
-$ npm start
+# Inicie a API
+$ npm run server
+
+# Inicie o Next
+$ npm run dev
 ```
 </br>
 
