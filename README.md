@@ -19,6 +19,7 @@
 ## 👀 Demo
 Deploy on Vercel: https://podcastr-taupe.vercel.app/
 
+</br>
 
 ## 🚀 Tecnologias utilizadas
 
