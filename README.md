@@ -16,6 +16,10 @@
 
 </br>
 
+## 👀 Demo
+Deploy on Vercel: https://podcastr-taupe.vercel.app/
+
+
 ## 🚀 Tecnologias utilizadas
 
 -  [ReactJS](https://reactjs.org/)
